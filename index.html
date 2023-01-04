@@ -7,38 +7,78 @@
         <meta name="description" content="A page dedicated to the world's largest (and favorite) rodent, the capybara.">
         <title>Behold The Capybara</title>
         <link rel="stylesheet" href="index.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
     </head>
     <body>
         <div class="header">
-            <p>We <3 Capybaras!</p>
+            <div class="left">
+                <p>We <3 Capybaras!</p>
+            </div>
+            <div class="right">
                 <ul>
                     <li><a href="https://en.wikipedia.org/wiki/Capybara" target="_blank">wikipedia</a></li>
                     <li><a href="https://rousfoundation.com/" target="_blank">rous foundation</a></li>
                     <li><a href="https://www.reddit.com/r/capybara/" target="_blank">reddit</a></li>
                 </ul>
+            </div>
         </div>
         <div class="content">
             <div class="hero">
-                <h1>Behold The Capybara</h1>
-                <p>Meet the capybara, the world's largest (and favorite) rodent! Visit the links above to learn more about and discuss the coconut dog.</p>
-                <p>Consider donating to the <abbr title="Rodents of Unusual Size">ROUS</abbr> Foundation, a Texas A&M-sponsored organization covering the expenses of capybara care and research!</p>
-                <a href="https://rousfoundation.com/donations/" target="_blank">Donate Now</a>
+                <div class="heroleft">
+                    <h1>Behold The <i>Capybara</i></h1>
+                    <p>Meet the capybara, the world's largest (and favorite) rodent! Visit the links above to learn more about the coconut dog.</p>
+                    <p>Consider donating to the <abbr title="Rodents of Unusual Size">ROUS</abbr> Foundation, a Texas A&M-sponsored organization covering the expenses of capybara care and research!</p>
+                    <a href="https://rousfoundation.com/donations/" target="_blank" class="donation">Donate Now</a>
+                </div>
+                <div class="heroright"><img src="img/hero.png" alt="Capybara!" id="heroimg"></div>
             </div>
             <div class="capybaras">
                 <h2>Capybaras of the Month</h2>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="img/capy1.png" alt="Capybara OTM" class="cardimg">
+                        <p>Maurice</p>
+                    </div>
+                    <div class="card">
+                        <img src="img/capy2.png" alt="Capybara OTM" class="cardimg">
+                        <p>Budette</p>
+                    </div>
+                    <div class="card">
+                        <img src="img/capy3.png" alt="Capybara OTM" class="cardimg">
+                        <p>Petewaldison the 3st</p>
+                    </div>
+                    <div class="card">
+                        <img src="img/capy4.png" alt="Capybara OTM" class="cardimg">
+                        <p>Mork</p>
+                    </div>
+                </div>
             </div>
             <div class="quotes">
                 <div class="quote-item">
+                    <div class="quote">Once I discovered the capybara, I can safely say that my life has changed for the better. They are wiser than any other creation on this earth and we have much to learn from them.</div>
+                    <div class="author">Sarah, new capybara enthusiast</div>
+                </div>
+                <div class="quote-item">
                     <div class="quote">Okay I pull up</div>
-                    <div class="author">Gort</div>
+                    <div class="author">Gort, former Capybara of the Month</div>
                 </div>
             </div>
             <div class="call-to-action">
-                <h3>It's time!</h3>
-                <p>Donate to the ROUS Foundation today!</p>
-                <a href="https://rousfoundation.com/donations/" target="_blank">Donate Now</a>
+                <div class="cta-container">
+                    <div class="ctaleft">
+                        <h3>It's time!</h3>
+                        <p>Donate to the ROUS Foundation today! Think of the capybaras!</p>
+                    </div>
+                    <div class="ctaright">
+                        <a href="https://rousfoundation.com/donations/" target="_blank" class="donation">Donate Now</a>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="footer"><p>Copyright © Ana Oharciuc and The Odin Project 2023</p><p>Images Copyright © Pexels.com and Unsplash.com</p><p>This site is not affiliated with the ROUS Foundation and only seeks to spread awareness of the organization.</p></div>
+        <div class="footer">
+            <div class="footerleft">Copyright © Ana Oharciuc and The Odin Project 2023</div>
+            <div class="footercenter">Images Copyright © Pexels.com and Unsplash.com</div>
+            <div class="footerright">This site is not affiliated with the ROUS Foundation and only spreads awareness of the organization.</div>
+        </div>
     </body>
 </html>
